@@ -40,7 +40,7 @@ var education = {
         }
     ],
     "onlineCourses" : [
-	    {
+	{
             "title": "Intro to Data Analysis",
             "school" : "Udacity",
             "dates" : 2017,
@@ -58,7 +58,7 @@ var education = {
             "dates" : 2016,
             "url" : "https://www.udacity.com/course/javascript-basics--ud804"
         },
-	 {
+         {
             "title": "Intro to HTML and CSS",
             "school" : "Udacity",
             "dates" : 2016,
