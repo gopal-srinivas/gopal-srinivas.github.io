@@ -164,6 +164,7 @@ education.display = function() {
 		var formattedMajor = HTMLschoolMajor.replace("%data%",education.schools[school].majors);
 		$(".education-entry:last").append(formattedName2 + formattedDegree,formattedDates,formattedLocation,formattedMajor);
 	}
+      $(".education-entry:last").append(HTMLonlineClasses);
     for(Oclass in education.onlineCourses){
         
         var formattedTitle = HTMLonlineTitle.replace("%data%",education.onlineCourses[Oclass].title);
@@ -172,7 +173,7 @@ education.display = function() {
         var formattedURL = HTMLonlineURL.replace("%data%",education.onlineCourses[Oclass].url);
         var formattedURL2 = formattedURL.replace("#",education.onlineCourses[Oclass].url); 
         
-        $(".education-entry:last").append(HTMLonlineClasses, formattedTitle + formattedSchool,formattedDates,formattedURL2);
+        $(".education-entry:last").append(formattedTitle + formattedSchool,formattedDates,formattedURL2);
     }
 };
 
