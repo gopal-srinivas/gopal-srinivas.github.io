@@ -40,11 +40,29 @@ var education = {
         }
     ],
     "onlineCourses" : [
+	    {
+            "title": "Intro to Data Analysis",
+            "school" : "Udacity",
+            "dates" : 2017,
+            "url" : "https://www.udacity.com/course/intro-to-data-analysis--ud170"
+        },
+         {
+            "title": "Gradle for Android and Java",
+            "school" : "Udacity",
+            "dates" : 2017,
+            "url" : "https://www.udacity.com/course/gradle-for-android-and-java--ud867"
+        },
         {
             "title": "JavaScript Basics",
             "school" : "Udacity",
             "dates" : 2016,
             "url" : "https://www.udacity.com/course/javascript-basics--ud804"
+        },
+	 {
+            "title": "Intro to HTML and CSS",
+            "school" : "Udacity",
+            "dates" : 2016,
+            "url" : "https://www.udacity.com/course/intro-to-html-and-css--ud304"
         }
     ]
 };
