@@ -34,7 +34,7 @@ var education = {
             "degree" : "Bachelors",
             "majors" : ["EE"],
             "dates" : "2011 - 2015",
-            "url" : "http://www.bits-pilani.ac.in/"
+            "url" : "https://www.bits-pilani.ac.in/"
             
             
         }
