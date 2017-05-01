@@ -10,7 +10,7 @@ var bio = {
         "github" : "gopal-srinivas",
         "location" : "San Francisco Bay Area"
     },
-    "welcomeMessage" : "Fill Welcome Message Later",
+    "welcomeMessage" : "Hello, I'm Srinivas. I'm an aspiring software engineer looking for full-time career opportunities.",
     "skills" : [
         "Mobile Development(Android, iOS)", "Python(Numpy, Pandas, Matplotlib, Scikit)", "C/C++, Java, Perl, Shell Scripting", "Web Development(HTML, CSS, JavaScript, Bootstrap)"
     ],
